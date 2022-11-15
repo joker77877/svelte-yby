@@ -15,10 +15,10 @@ export default defineConfig({
 			// dirs: [
 			// 	'./src/components',
 			// ]
-		}),
-		legacy({
-			targets: ['defaults', 'IE 11']
 		})
+		// legacy({
+		// 	targets: ['defaults', 'IE 11']
+		// })
 	],
 	resolve: {
 		alias: { '@': resolve(__dirname, './src') },
